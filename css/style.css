@@ -1,0 +1,168 @@
+
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+body {
+	background-image: url('');
+	background-color: #258e3f;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+/* header and nav */
+
+.header {
+	padding-top: 30px;
+	padding-bottom: 20px;
+	background-color: #68D824;
+}
+
+.nav {
+	padding-top: 20px;
+
+}
+
+.header h1 {
+	color: white;
+	text-transform: uppercase;
+	font-family:'Dancing Script', cursive;
+	font-size: 2.5em;
+
+}
+
+.nav li.active a, 
+.nav li.active a:hover {
+	background: #F01251;
+}
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:hover,
+.nav-pills>li.active>a:focus {
+  background-color: rgb(3, 94, 24);
+}
+
+.nav li a {
+	color: rgb(3, 94, 24);
+}
+
+.nav li a:hover {
+	color: #fff;
+	background: rgb(3, 94, 24);
+}
+
+/*img spacer*/
+
+.spacer {
+	padding-bottom: 20px;
+	
+}
+
+/*thumbnails*/
+
+.selected {
+	border: 10px solid #F01251;
+}
+
+/*footer*/
+
+.footer {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.footer a {
+	color: white;
+	text-decoration: none;
+}
+
+.footer a:hover {
+	color: #F01251;
+}
+
+.main {
+	margin-top: 50px;
+}
+
+.space {
+	padding-left: 15px;
+}
+
+.don {
+	text-align: center;
+	margin-top: 100px;
+}
+
+.don h1 {
+	font-family: 'Droid Sans', sans-serif;
+	color: white;
+
+}
+
+.likes {
+  background: rgb(63, 204, 24);
+ 	color: #fff;
+ 	cursor: pointer;
+ 	display: inline-block;
+ 	font-size: 15px;
+  line-height: 40px;
+  min-width: 40px;
+  height: 40px;
+  border-radius: 50%;
+ 	margin: 0 0px 5px 10px;
+  text-align: center;
+  font-weight: 200;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  transition: background 500ms;
+
+}
+
+.rating {
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-left: -30px;
+	margin-left: 0px;
+}
+
+.consumer {
+	margin: 0px;
+}
+
+.titlePrice {
+	padding: 0px;
+	margin: 0px;
+	margin-bottom: 50px;
+	color: white;
+	font-weight: ;
+	font-size: 1em;
+	text-align: center;
+	font-size: 2em;
+	padding-top: 0px;
+	margin-top: 0px;
+	font-family: 'Dancing Script', cursive;
+	font-weight: bold;
+	color: #68D824;
+	color: white;
+  text-shadow:
+  -1px -1px 0 #000,  
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+
+.smallSpace {
+	position: absolute;
+	padding-left: 60px;
+	font-size: .5em;
+	text-align: right;
+	margin-right: 0px;
+	padding-right: 0px;
+
+}
+
+#copyright {
+	color: white;
+}
+
